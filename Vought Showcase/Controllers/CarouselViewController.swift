@@ -46,6 +46,7 @@ final class CarouselViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .systemBackground
         initPageViewController()
         initCarouselControl()
     }
